@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juice Shop</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="stylesheets/juice-style.css"></head>
 <body>
-    
+
+  <div class="container-fluid">
+    <div class="juice-shop-brand">
+      Juice Paradise
+    </div>
+    <div class="row menu-options">
+      <div class="col-lg-4">
+        <div class="menu-option">
+          <img src="fresh_juice_image.jpg" alt="Fresh Juice" class="img-fluid menu-img">
+          <div class="clearfix"></div> <!-- Add clearfix to move button to the next line -->
+          <button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#freshJuicesMenu" aria-expanded="false" aria-controls="freshJuicesMenu">
+            Fresh Juices
+          </button>
+          <div class="collapse" id="freshJuicesMenu">
+            <div class="card card-body">
+              <div class="menu-item">
+                <img src="fresh_juice_image1.jpg" alt="Fresh Juice 1" class="img-fluid menu-item-img">
+                <p>Orange Juice</p>
+                <p>$5.99</p>
+              </div>
+              <div class="menu-item">
+                <img src="fresh_juice_image2.jpg" alt="Fresh Juice 2" class="img-fluid menu-item-img">
+                <p>Apple Juice</p>
+                <p>$4.99</p>
+              </div>
+              <!-- Add more menu items here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="menu-option">
+          <img src="smoothie_image.jpg" alt="Smoothies" class="img-fluid menu-img">
+          <div class="clearfix"></div> <!-- Add clearfix to move button to the next line -->
+          <button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#smoothiesMenu" aria-expanded="false" aria-controls="smoothiesMenu">
+            Smoothies
+          </button>
+          <div class="collapse" id="smoothiesMenu">
+            <div class="card card-body">
+              <div class="menu-item">
+                <img src="smoothie_image1.jpg" alt="Smoothie 1" class="img-fluid menu-item-img">
+                <p>Strawberry Banana Smoothie</p>
+                <p>$7.99</p>
+              </div>
+              <div class="menu-item">
+                <img src="smoothie_image2.jpg" alt="Smoothie 2" class="img-fluid menu-item-img">
+                <p>Mango Pineapple Smoothie</p>
+                <p>$8.99</p>
+              </div>
+              <!-- Add more menu items here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="menu-option">
+          <img src="healthy_snack_image.jpg" alt="Healthy Snacks" class="img-fluid menu-img">
+          <div class="clearfix"></div> <!-- Add clearfix to move button to the next line -->
+          <button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#healthySnacksMenu" aria-expanded="false" aria-controls="healthySnacksMenu">
+            Healthy Snacks
+          </button>
+          <div class="collapse" id="healthySnacksMenu">
+            <div class="card card-body">
+              <div class="menu-item">
+                <img src="healthy_snack_image1.jpg" alt="Healthy Snack 1" class="img-fluid menu-item-img">
+                <p>Fruit Salad</p>
+                <p>$4.99</p>
+              </div>
+              <div class="menu-item">
+                <img src="healthy_snack_image2.jpg" alt="Healthy Snack 2" class="img-fluid menu-item-img">
+                <p>Granola Bar</p>
+                <p>$2.99</p>
+              </div>
+              <!-- Add more menu items here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (Required) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

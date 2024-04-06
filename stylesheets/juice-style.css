@@ -1,0 +1,73 @@
+/* Custom CSS */
+body {
+  background-image: url('background_image.jpg'); /* Replace 'background_image.jpg' with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensures the background image remains fixed as the content scrolls */
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.juice-shop-brand {
+  background-color: #28a745;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 2px solid #218838;
+}
+
+.card-body {
+  margin: 15px
+}
+
+.menu-options {
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.menu-option {
+  background-color: rgba(255, 255, 255, 0.8); /* Add transparency to menu options */
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-option:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu-option h2 {
+  color: #28a745;
+}
+
+.menu-option p {
+  color: #6c757d;
+}
+
+.menu-option .btn {
+  background-color: #28a745;
+  border-color: #218838;
+}
+
+.menu-option .btn:hover {
+  background-color: #218838;
+}
+
+.menu-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.menu-item-img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
