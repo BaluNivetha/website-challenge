@@ -1,6 +1,6 @@
 /* Custom CSS */
 body {
-  background-image: url('background_image.jpg'); /* Replace 'background_image.jpg' with your image path */
+  background-image: url('https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/backgrounds/food.jpg?raw=true'); /* Replace 'background_image.jpg' with your image path */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Ensures the background image remains fixed as the content scrolls */
@@ -10,6 +10,25 @@ body {
 
 .container-fluid {
   padding: 0;
+}
+
+.menu-item{
+  margin-top: -20px;
+}
+
+.title-item{
+    font-size: 12pt;
+    text-align: center;
+    font-family: ui-serif;
+    margin-top: 25px;
+    padding-top: 23px;
+}
+
+.title-ing{
+  font-family: 'Courier New';
+  font-size: 11pt;
+  text-align: center;
+  margin-top: -16px;
 }
 
 .juice-shop-brand {
@@ -62,12 +81,13 @@ body {
 }
 
 .menu-img {
-  width: 100%;
+  width: 4%;
   border-radius: 10px 10px 0 0;
 }
 
 .menu-item-img {
-  width: 100px; /* Adjust as needed */
-  height: auto;
-  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 58%;
 }
